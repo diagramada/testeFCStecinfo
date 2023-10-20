@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand&display=swap');
+
+body{
+    margin-top: 0%;
+}
+
+#wrapper{
+    background-color:#333;
+    float:inherit;
+    width:900px;
+    position:relative;
+    margin:0 auto 0 auto;
+}
+
+header{
+    float:left;
+    width:875px;
+    height:100px;
+    background-color:#333;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-size:30px;
+    padding:30px 0 5px 25px;
+    color:#FC0;
+}
+
+h1,h2,h3{
+    font-family:Arial, Helvetica, sans-serif;
+    line-height:21px;
+    }
+
+nav{
+    float:left;
+    width:875px;
+    height:30px;
+    background-color:#FC0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size:14px;
+    color:#333;
+    padding:17px 0px 3px 25px;
+    display: block;
+}
+
+    nav a{
+        color:#000;
+        text-decoration:none;
+        padding-right: 25px;
+        display: inline;
+    }
+        nav a:hover{
+        color:#ffffff;
+        text-decoration:underline;
+        display: inline-block;
+        height: 30px;
+        }
+        
+    a{
+       color:#FC0;
+       text-decoration:none;
+    }
+        a:hover{
+        text-decoration:underline;
+        }
+
+article{
+    float:left;
+    width:650px;
+    background-color:#333;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-size:12px;
+    line-height:21px;
+    color:#CCC;
+    padding:25px 25px 5px 25px;
+}
+
+aside{
+    float:left;
+    overflow-x: hidden; /* Desabilita a rolagem horizontal */
+    width:170px;
+    background-color:#575656;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-size:12px;
+    color:#CCC;
+    padding:25px 15px 10px 15px;
+    line-height:16px;
+    border-radius: 10px;
+}
+
+
+
+#footer{
+    clear:both;
+    width:875px;
+    height:30px;
+    background-color:#FC0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:normal;
+    font-size:12px;
+    color:#333;
+    padding:20px 0 0 25px;
+   
+}
+    /* A tag “clear:both” garante que o rodapé seja realmente exibido abaixo do artigo principal;
+    informa explicitamente ao navegador que nenhum elemento flutuante é permitido em ambos os lados do rodapé. */
